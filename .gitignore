@@ -1,0 +1,37 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Logs
+*.log
+
+# IDE folders
+/.idea/
+/.vscode/
+/*.iml
+/.settings/
+/bin/
+/build/
+/out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gradle
+/.gradle/
+/build/
+
+# Maven
+target/
+
+# Database files
+*.sql
+*.db
+
+# Temporary files
+*.tmp
+*.cache
