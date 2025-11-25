@@ -1,71 +1,85 @@
-Final Project CSE 311.04
-GROUP 8
+Description
 
-Name: Akmam Hasan
-ID: 1911192642
+This project is a Smart Attendance Management System built using Java Swing for the frontend and MySQL for the database. It allows administrators, faculty, and students to manage and track attendance efficiently with secure login functionality.
 
-Name: Kazi Rabiul Alam
-ID: 1921335042
+Features
 
-We are using java swing for the frontend and mysql server.
+Administrator Login:
 
-There are 5 classes. Login. Signup, Student, Faculty, Administrator. And the database is in student_attendance file inside the FinalProject file. 
+Create faculty and student profiles
 
-After unziping and placing the project.
+Launch courses and assign students
 
-Goto the login class and run the file.
+Update administrator information
 
-GoTo the signup option for craeting administrator user account. 
+Faculty Login:
 
-After creating the account goto Back.
+Take attendance for students
 
-Then give proper information to login as Administrator.
+View attendance records
 
-Then Administrator window will appear.
+Send messages to students
 
-First we need to create faculty profile then student profile.
+Student Login:
 
-Then we need to launch a course. 
+View courses enrolled
 
-Then we can add the students for their partical course.
+Check individual attendance
 
-We also can update the admknistrator information. 
-(To handle foreign key related errors we use dropdown menu in this class.)
+Database Integration: All data is stored in MySQL.
 
-Then after logout from the administrator window we should go to the faculty window.
+Project Structure
 
-After logout again login window will appear. 
+Classes:
 
-As Faculty_Id and Student_Id is also set as user id. we can use those id as user id and password for login into the accounts
+Login.java – Handles login functionality
 
-with faculty id and password open faculty window. 
+Signup.java – Admin account creation
 
-type the date in the following way then select Show button.
+Administrator.java – Admin functionalities
 
-It will show all the faculty id. select a id and select add button.
+Faculty.java – Faculty functionalities
 
-It will show the course id and initial for the selected faculty.
+Student.java – Student functionalities
 
-Select the course and initial. Then select ADD.
+Database:
 
-Select the student id from the comboBox and after selecting the status 
-press take attendance button to store the attendance into database. 
+student_attendance.sql – Contains the MySQL database schema and data
 
-Show data button will show the attendance data of students according to the course id.
+Executable:
 
-Faculty can select the faculty id and password and send message. this messege will be saved into the databe table named message.
+Attendance_Management_System.jar – Runnable jar file for the project
 
-Then Logout from the window and using student id as user id and password login into student window.
+Usage
 
-Provide the valid student id and click show button
+Administrator:
 
-it will the the courses list that the student is taken. 
+Sign up to create an admin account.
 
-select the course and select 'check Attendance' button. it will check the attendance 
-for the particular course. 
+Create faculty and student profiles.
 
-After logout again the login window will appear. After click EXIT the entire frame will dispose. 
+Launch courses and assign students.
 
-..................................END OF PROJECT..............................................................................
+Faculty:
 
- 
+Login using Faculty ID and password.
+
+Take attendance and view student attendance records.
+
+Send messages to students.
+
+Student:
+
+Login using Student ID and password.
+
+View attendance records for enrolled courses.
+
+Tech Stack
+
+Frontend: Java Swing
+
+Backend: Java
+
+Database: MySQL
+
+Version Control: Git / GitHub
